@@ -1,0 +1,60 @@
+class production
+{
+	static String emp="Junaid";
+	long eid=3783874628l;
+	boolean present=true;
+	static void detail()
+	{
+		System.out.println("Junaid is present today,he works in production department");
+	}
+}
+class mechanical
+{
+	static String emp="SANKET";
+	long eid=37833829628l;
+	boolean present=true;
+	static void detail()
+	{
+		System.out.println("Sanket is present today,he works in mechanical department");
+	}
+}
+class instrument
+{
+	static String emp="Kundan";
+	long eid=378383344328l;
+	boolean present=false;
+	static void detail()
+	{
+		System.out.println("Kundan is absent today,he works in instrument department");
+	}
+}
+	class Company
+	{
+		static String name="-----------------HINDALCO INDUSTRIES LTD MURI WORKS---------------";
+		void hr()
+		{
+
+			System.out.println("------------WELCOME TO HINDALCO INDUSTRIES LTD MURI WORKS--------");
+	     }
+	public static void main(String[] args) 
+	{
+		System.out.println("Start of java code");
+		System.out.println(name);
+		new Company().hr();
+		System.out.println("Name of employee "+production.emp);
+        System.out.println("Employee ID "+new production().eid);
+		System.out.println("Employee present today "+new production().present);
+		mechanical.detail();
+		System.out.println("Name of employee "+mechanical.emp);
+        System.out.println("Employee ID "+new mechanical().eid);
+		System.out.println("Employee present today "+new mechanical().present);
+		mechanical.detail();
+		System.out.println("Name of employee "+instrument.emp);
+        System.out.println("Employee ID "+new instrument().eid);
+		System.out.println("Employee present today "+new instrument().present);
+		instrument.detail();
+		System.out.println("End of java code");
+
+
+	}
+}

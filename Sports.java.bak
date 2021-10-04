@@ -1,0 +1,46 @@
+class cricket
+{
+	static int players=11;
+    void cric()
+	{
+		System.out.println("There are total 11 player in a team");
+	}
+}
+	class volleyball
+{
+	static	int totalplayer=6;
+	 void volley()
+	{
+		System.out.println("There are total 6 player in a team");
+	}
+}
+class basketball
+{
+	static int noofplayer=5;
+	void basket()
+	{
+	   System.out.println("There are total 5 player in a team");	
+	}
+}
+	class Sports
+	{
+		static String teamname="INDIA";
+		void task()
+		{
+           System.out.println("EAST OR WEST INDIA IS THE BEST");
+	     }
+	public static void main(String[] args) 
+	{
+		System.out.println("Start of java code");
+		System.out.println("Country name "+teamname);
+		new Sports().task();
+		System.out.println("CRICKET: "+cricket.players);
+		new cricket().cric();
+		System.out.println("VOLLEYBALL: "+volleyball.totalplayer);
+		new volleyball().volley();
+		System.out.println("BASKETBALL: "+basketball.noofplayer);
+		new basketball().basket();
+
+		
+	}
+}

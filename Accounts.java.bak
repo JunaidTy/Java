@@ -1,0 +1,55 @@
+class account1
+{
+	static String accname1="Junaid";
+	long id1=3783874628l;
+	static void accdetail1()
+	{
+		System.out.println("This account belong to junaid");
+	}
+}
+class account2
+{
+	static String accname2="Dinga";
+	long id2=3783872358l;
+	static void accdetail2()
+	{
+		System.out.println("This account belong to Dinga");
+	}
+}
+class account3
+{
+	static String accname3="Dingi";
+	long id3=3783879876l;
+	static void accdetail3()
+	{
+		System.out.println("This account belong to Dingi");
+	}
+}
+
+	class Accounts
+	{
+		static String bank="BANK OF MURI";
+		void task()
+		{
+
+			System.out.println("MURI BANK IS THE SAFE BANK");
+	     }
+	public static void main(String[] args) 
+	{
+		System.out.println("Start of java code");
+		System.out.println(bank);
+		new Accounts().task();
+		System.out.println("ACCOUNT HOLDER NAME "+account1.accname1);
+        System.out.println("ACCOUNT HOLDER ID "+account1.id1);
+		new account1().accdetail1();
+		System.out.println("ACCOUNT HOLDER NAME "+account2.accname2);
+        System.out.println("ACCOUNT HOLDER ID "+account2.id2);
+		new account2().accdetail2();
+		System.out.println("ACCOUNT HOLDER NAME "+account3.accname3);
+        System.out.println("ACCOUNT HOLDER ID "+account3.id3);
+		new account3().accdetail3();
+		System.out.println("End of java code");
+
+
+	}
+}

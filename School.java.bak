@@ -1,0 +1,57 @@
+class class1
+{
+	String stu="Junaid,Raj,Rohan,Salu,Priya";
+	int noofstudent=5;
+	boolean allpresent=true;
+	static void detail()
+	{
+		System.out.println("All are present in class one");
+	}
+}
+class class2
+{
+	String stu="Saket,Afzal,Arshad,Barkat,Rinku,Dipshika,Priya";
+	int noofstudent=7;
+	boolean allpresent=false;
+	static void detail()
+	{
+		System.out.println("Sanket is absent today,he is suffering from fever");
+	}
+}
+class class3
+{
+	String stu="Kundan,Neha,Iqbal,Asif,Bipin,Zafer";
+	int noofstudent=6;
+	boolean present=false;
+	static void detail()
+	{
+		System.out.println("Kundan and neha is absent today");
+	}
+}
+	class School
+	{
+		String name="-----------------URSULINE ENGLISH MEDIUM SCHOOL MURI---------------";
+		static void principal()
+		{
+
+			System.out.println("------------WELCOME TO URSULINE ENGLISH MEDIUM SCHOOL MURI--------");
+	     }
+	public static void main(String[] args) 
+	{
+		System.out.println("Start of java code");
+		System.out.println(new School().name);
+		principal();
+		System.out.println("Name of students of class 1 "+new class1().stu);
+        System.out.println("Number of student in class 1 "+new class1().noofstudent);
+		System.out.println("Present today "+new class1().allpresent);
+	    class1.detail();
+		System.out.println("Name of students of class 2 "+new class2().stu);
+        System.out.println("Number of student in class 2 "+new class2().noofstudent);
+		System.out.println("Present today "+new class2().allpresent);
+	    class2.detail();
+		System.out.println("Name of students of class 3 "+new class3().stu);
+        System.out.println("Number of student in class 3 "+new class3().noofstudent);
+		System.out.println("Present today "+new class3().allpresent);
+	    class3.detail();
+	}
+}

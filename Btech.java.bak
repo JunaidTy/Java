@@ -1,0 +1,21 @@
+abstract class school
+{
+	abstract void student(int age);
+}
+class college extends  school
+{
+	void candidate(int age)
+	{
+		System.out.println("Age criteria for college student="+age);
+	}
+}
+class  Btech
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("start of java code");
+		Sim s1=new Sim();
+		s1.recharge(2599);
+		System.out.println("end of java code");
+	}
+}

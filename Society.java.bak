@@ -1,0 +1,47 @@
+class apartment1
+{
+	int flatno=1;
+	static void flat1()
+	{
+		System.out.println("flat 1 owner is RAHUL");
+	}
+}
+	class apartment2
+{
+	int flatno=2;
+	static void flat2()
+	{
+		System.out.println("flat 2 owner is JUNAID");
+	}
+}
+class apartment3
+{
+	int flatno=3;
+	static void flat3()
+	{
+		System.out.println("flat 3 owner is JHON");
+	}
+}
+	class Society
+	{
+		static String guard="VIKASH";
+		void task()
+		{
+
+			System.out.println("Please contact guard if there is any problem");
+	     }
+	public static void main(String[] args) 
+	{
+		System.out.println("Start of java code");
+		System.out.println("Guard Name "+guard);
+		new Society().task();
+		System.out.println("First flat no is "+new apartment1().flatno);
+		apartment1.flat1();
+		System.out.println("Second flat no is "+new apartment2().flatno);
+		apartment2.flat2();
+		System.out.println("Third flat no is "+new apartment3().flatno);
+		apartment3.flat3();
+
+
+	}
+}

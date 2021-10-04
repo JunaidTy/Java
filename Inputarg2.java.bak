@@ -1,0 +1,22 @@
+class Inputarg2 
+{
+	static void bookatraintkt(int tno,String seatno,long pid,String padd,int page,
+		String dot,String startingplace,String destination)
+	{
+	
+		System.out.println("train no "+tno);
+		System.out.println("seat no "+tno);
+		System.out.println("passenger id "+tno);
+		System.out.println("passenger address "+tno);
+		System.out.println("passenger age "+tno);
+		System.out.println("date of travel "+tno);
+		System.out.println("starting of journey "+tno);
+		System.out.println("destination "+tno);
+	}
+	public static void main(String[] args) 
+	{
+	System.out.println("start of java code");
+	bookatraintkt(15689,"d1-a59",562212345678L,"basvangudi bengaluru",25,"15-sept-2021","ranchi","bengaluru");
+	System.out.println("end of java code");
+}
+}

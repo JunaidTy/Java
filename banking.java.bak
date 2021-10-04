@@ -1,0 +1,22 @@
+class banking
+{
+	static void transfer()
+	{
+		long fan=547885558589l;
+		long tan=758575477485l;
+	}
+	class amount
+	{
+		int amt=5000;
+	}
+	{
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("start of java code");
+		transfer();
+		amount.amt();
+		System.out.println("Amount transfered");
+		System.out.println("end of java code");
+	}
+}

@@ -1,0 +1,48 @@
+class Onedaykart
+{
+	int noofproducts=8;
+	float deliverytime=2.0f;
+	boolean samedaydelivery=true;
+	void product()
+	{
+		System.out.println("Products are listed bellow");
+		System.out.println("Fish");
+		System.out.println("Milk");
+		System.out.println("food items");
+		
+	}
+	void delivery()
+	{
+		System.out.println("Delivery will be on time");
+	}
+}
+class Onedaykartv2 extends Onedaykart
+{
+	
+	void fruits()
+	{
+			System.out.println("Apple");
+			System.out.println("Banana");
+			System.out.println("Pineapple");
+			System.out.println("Guava");
+			System.out.println("Grapes");
+	}	
+}
+
+class  Buyers
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("download application and create account");
+		Onedaykartv2 on=new Onedaykartv2();
+		
+		on.product();
+		
+		on.fruits();
+		System.out.println("No of Products= "+on.noofproducts);
+		System.out.println("deliverytime= "+on.deliverytime+" hr");
+		System.out.println("samedaydelivery="+on.samedaydelivery);
+		
+		on.delivery();
+	}
+}
